@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Le cercle</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/35a560ea48.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div>
+          <h2>Menu</h2>
+          <a class="surligne" href=""><p class="word">Accueil</p></a>
+          <a class="surligne" href=""><p class="word">Paramètres</p></a>
+
+          <h2>Programmes</h2>
+          <a class="surligne" href=""><p class="word">Vidéos</p></a>
+          <a class="surligne" href=""><p class="word">Entraînement</p></a>
+          <a class="surligne" href=""><p class="word">Nutrition</p></a>
+          <a class="surligne" href=""><p class="word">Santé</p></a>
+        </div>
+        <div class="nav_bottom">
+          <div>
+            <a
+              target="_blank"
+              class="connect"
+              href="https://www.urssaf.fr/portail/portail/home/connectez-vous.html"
+              >Connectez-vous</a>
+            <p>
+              et commencez votre <br />
+              routine santé!
+            </p>
+          </div>
+          <div class="nav_bottom_icon">
+            <a
+              class="icon"
+              target="_blank"
+              href="https://www.instagram.com/?hl=fr"
+              ><i class="fa-brands fa-instagram fa-xl"></i
+            ></a>
+            <a class="icon" target="_blank" href="https://www.facebook.com"
+              ><i class="fa-brands fa-facebook-square fa-xl"></i
+            ></a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="general">
+      <div class="title">
+        <img src="./assets/Logo.png" alt="logo Le clercle" />
+      </div>
+      <main>
+        <div>
+          <h3>L'actu du moment</h3>
+          <p>Sous-titre</p>
+          <p>Date et heure</p>
+        </div>
+        <article>
+          <div>
+            <h3>Titre</h3>
+            <p>Date et heure</p>
+          </div>
+          <div class="general_section">
+            <section>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Officia, ut maiores! Omnis, fugiat exercitationem. Nobis
+                molestias perferendis delectus inventore ab neque ipsum fuga,
+                aut iusto officia qui placeat provident necessitatibus? Lorem
+                ipsum dolor sit, amet consectetur adipisicing elit. Iste vero
+                laborum explicabo, cumque vitae totam ratione debitis est ipsa
+                fugit iusto amet consequuntur eveniet molestias delectus fugiat
+                at architecto mollitia.
+              </p>
+              <img class="course" src="./assets/image.jpg" alt="course" />
+            </section>
+            <section>
+              <img class="course" src="./assets/image.jpg" alt="course" />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi,
+                vitae ullam. Quos, debitis quia quibusdam esse nemo doloribus.
+                Eaque totam amet, qui non incidunt dolorem. Amet ex numquams
+                excepturi eaque? Lorem ipsum dolor, sit amet consectetur
+                adipisicing elit. Error officia repellendus laudantium explicabo
+                voluptates iusto cum fugiat, doloribus eligendi earum. Illo
+                officiis corporis temporibus aut vel praesentium iure atque
+                autem.
+              </p>
+            </section>
+          </div>
+        </article>
+        <footer>
+          <h3 class="adress">Adressez-nous un commentaire</h3>
+
+          <div class="footer_bottom">
+            <div class="input">
+              <img
+                class="logocourse"
+                src="./assets/image.jpg"
+                alt="logocourse"
+                onclick="submitComment()"
+              />
+
+              <input
+                class="comment"
+                placeholder="Ajouter un commentaire..."
+                type="text"
+                id="comment"
+              />
+            </div>
+
+            <div class="star">
+              <h3>Notez cet article!</h3>
+              <div class="rating">
+                <div class="stars">
+                  <i class="fa-regular fa-star" onclick="giveNote(1)"></i>
+                  <i class="fa-regular fa-star" onclick="giveNote(2)"></i>
+                  <i class="fa-regular fa-star" onclick="giveNote(3)"></i>
+                  <i class="fa-regular fa-star" onclick="giveNote(4)"></i>
+                  <i class="fa-regular fa-star" onclick="giveNote(5)"></i>
+                </div>
+            </div>
+          </div>
+        </footer>
+        <div id="comments-list">
+          <div class="comment-item"></div>
+        </div>
+      </main>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>

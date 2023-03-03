@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+}
+
+.icon {
+  color: rgb(182, 152, 94);
+  padding: 2px 2px 2px 2px;
+}
+
+.course {
+  object-fit: cover;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.logocourse {
+  object-fit: cover;
+  height: 30px;
+  width: 30px;
+  border-radius: 50px;
+  margin-left: 10px;
+}
+
+.connect {
+  color: rgb(100, 127, 144);
+  text-decoration: none;
+}
+
+html,
+body {
+  margin: 0;
+  background-color: rgb(237, 235, 228);
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+
+header {
+  background-color: black;
+  color: white;
+  height: 100%;
+  width: 15%;
+  padding: 70px 0px 0px 20px;
+}
+
+.surligne {
+  text-decoration: none;
+}
+
+.word {
+  color: white;
+}
+
+.surligne:hover {
+  color: rgb(182, 152, 94);
+  text-decoration: underline;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.nav_bottom {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.nav_bottom_icon {
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 15px;
+  opacity: 60%;
+  padding: 10px 0px 10px 0px;
+}
+
+.general {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+}
+
+.title {
+  padding: 10px 0px 10px 0px;
+  background-color: white;
+  text-align: center;
+}
+
+main {
+  background-color: rgb(239, 243, 244);
+  display: flex;
+  flex-direction: column;
+  height: 85vh;
+  margin: 20px 100px 40px 50px;
+  padding: 5px 5px 5px 5px;
+  border-radius: 10px;
+}
+
+article {
+  background-color: rgb(237, 235, 228);
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  padding: 0px 5px 5px 5px;
+  border-radius: 10px;
+  overflow: scroll;
+}
+
+.general_section {
+  display: flex;
+}
+
+section {
+  margin: 0px 5px 0px 5px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer_bottom {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+}
+
+.input {
+  width: 75%;
+  display: flex;
+  align-items: center;
+}
+
+.adress {
+  margin: 30px 0px 0px 10px;
+}
+
+.star {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.comment {
+  border-radius: 10px;
+  width: 75%;
+  border: none;
+  background-color: rgb(181, 181, 181);
+  height: 40px;
+  display: flex;
+  padding-left: 20px;
+  margin-left: 20px;
+}
+
+::placeholder {
+  color: black;
+  opacity: 60%;
+}
+
+#comments-list {
+  height: 150px;
+  overflow: scroll;
+}
+
+.comment-item {
+  padding: 10px 10px 10px 15px;
+  margin: 20px;
+  border: 1px solid gray;
+  border-radius: 15px;
+  max-width: 50%;
+}
+
+.stars:hover .fa-star {
+  color: rgb(182, 152, 94);
+}
+.stars .fa-star:hover ~ .fa-star {
+  color: grey;
+}
